@@ -2,8 +2,10 @@ USE sakila;
 -- 1
 SHOW FULL TABLES;
 -- 2
-SELECT * from actor, film; 
-SELECT 8 from customer; 
+SELECT * 
+from actor;
+SELECT * FROM film; 
+SELECT * from customer; 
 -- 3.1 Titles of all films
 SELECT title
 FROM film;
@@ -40,6 +42,6 @@ LIMIT 10;
 -- 7
 SELECT * 
 FROM actor 
-WHERE first_name = "SCARLET"
+WHERE first_name = "SCARLETT"
 
 
